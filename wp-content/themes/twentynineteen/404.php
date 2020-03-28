@@ -18,6 +18,7 @@ get_header();
 			<div class="error-404 not-found">
 				<header class="page-header">
 					<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'twentynineteen' ); ?></h1>
+                    <p>TSAR</p>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
