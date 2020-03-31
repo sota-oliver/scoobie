@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+html {
+	font-size: @font-size;
+	font-family: @font-primary;
+	line-height: @line-height;
+	overflow-y: scroll;
+}
+
+body {
+	background-color: #fff;
+    overflow-x: hidden;
+} 
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a, a:hover, a:focus, a:active {
+    color: @color-primary;
+    text-decoration: none !important;
+}
